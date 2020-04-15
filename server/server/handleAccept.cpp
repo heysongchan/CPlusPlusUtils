@@ -143,7 +143,7 @@ std::string ReadFromPipe(HANDLE g_hChildStd_OUT_Rd)
 // and write to the parent process's pipe for STDOUT. 
 // Stop when there is no more data. 
 {
-	DWORD dwRead, dwWritten;
+	DWORD dwRead;
 	CHAR chBuf[DEFAULT_BUFLEN];
 	BOOL bSuccess = FALSE;
 	HANDLE hParentStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
