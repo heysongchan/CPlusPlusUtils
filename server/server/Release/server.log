@@ -1,0 +1,21 @@
+﻿生成启动时间为 2020/4/13 15:07:56。
+     1>项目“E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\server\server.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt handleAccept.cpp server.cpp stdafx.cpp util.cpp
+         handleAccept.cpp
+         server.cpp
+         stdafx.cpp
+         util.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\Release\server.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\Release\server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\Release\server.lib" /MACHINE:X86 /SAFESEH Release\handleAccept.obj
+         Release\server.obj
+         Release\stdafx.obj
+         Release\util.obj
+         正在生成代码
+         已完成代码的生成
+         server.vcxproj -> E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\Release\server.exe
+     1>已完成生成项目“E:\desktop\3DtoSaas\tomcat\apache-tomcat-7.0.96\webapps\tbim\cpp\socketserver\server\server\server.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.55
