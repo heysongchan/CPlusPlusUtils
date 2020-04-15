@@ -20,8 +20,7 @@
 
 int _tmain(int argc, char* argv[])//argv[1] :  port
 {
-
-	WSADATA wsaData;
+	WSADATA wsaData; 
 	int iResult;
 	// Initialize Winsock
 	iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);//The WSAStartup function is called to initiate use of WS2_32.dll.
@@ -51,9 +50,8 @@ int _tmain(int argc, char* argv[])//argv[1] :  port
 		printf("getaddrinfo failed with error: %d\n", iResult);
 		WSACleanup();
 		return 1;
-	}
-
-	SOCKET ListenSocket = INVALID_SOCKET;	
+	}	
+	SOCKET ListenSocket = INVALID_SOCKET;
 	// Create a SOCKET for connecting to server
 	ListenSocket = socket(result->ai_family, result->ai_socktype, result->ai_protocol);
 	if (ListenSocket == INVALID_SOCKET) {
@@ -87,6 +85,7 @@ int _tmain(int argc, char* argv[])//argv[1] :  port
 		printf("listen on port:%s\n", port);
 		//
 		int status = handleAccept(&ListenSocket);
+		
 		if (status == 2){//exit
 			i = 0;
 		}

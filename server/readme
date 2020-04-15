@@ -1,0 +1,7 @@
+命令行执行server加一个端口号为参数
+例如：
+server.exe 8888
+
+客户端用client socket发送cmd命令给sever，server根据命令开子进程执行子程序。执行完写回子程序的输出。
+server输出在显示器上。
+子程序的输出用pipe重定向写回客户端，所以server显示器不打印子程序输出。
